@@ -1,10 +1,10 @@
 # Only-webKit start.
 
 
-----------
+[<p align="center">
+  <img src="http://onlytech.me/images/logo_only.a86bcbf1.png">
+</p>](http://onlytech.me/)
 
-<center>
-[![N|Solid](http://onlytech.me/images/logo_only.a86bcbf1.png)](http://onlytech.me/)
 
 
 
@@ -38,9 +38,6 @@ A instalação é fácil:
 ```
 
 ## Útil ##
-
-
-----------
 Desenvolvemos pensando em deixar o mais limpo para o início de um projeto web, no css adicionamos apenas a **grid do bootstrap 4**, assim você ficará mais livre para poder usar outros frameworks ou nenhum em seu projeto.
 
 > Caso não use nem a grid do bootstrap 4, não esqueça de remover o @import "grid-bootstrap" no **style.scss** para não poluir seu projeto.
