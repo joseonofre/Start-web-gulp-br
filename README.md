@@ -16,6 +16,15 @@
 ## O que tem de mais? ##
 **Only-webkit** Ajuda na performance do seu trabalho, comprimindo todo o css, imagens, javascript sem te dar trabalho. Além de trazer uma boa estrutura de pasta para ser usada em qualquer projeto.
 
+A instalação é fácil:
+-------------
+
+```
+1 - Faça o download ou o clone do projeto
+2 - Rode npm install para instalar as dependências.
+3 - Rode gulp para monitorar css/imagens/javascript do projeto.
+```
+
 ## Suporte do navegador ##
 Esse é um gosto de cada um por isso decidimos deixar por default assim:
 
@@ -28,15 +37,6 @@ Esse é um gosto de cada um por isso decidimos deixar por default assim:
 > Você pode mudar alterando no arquivo **Gulpfile.js**.
 > .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 9', 'ios 6', 'android 4'));
 > Saiba mais sobre o [autoprefixer gulp](https://github.com/postcss/autoprefixer#options)
-
-A instalação é fácil:
--------------
-
-```
-1 - Faça o download ou o clone do projeto
-2 - Rode npm install para instalar as dependências.
-3 - Rode gulp para monitorar css/imagens/javascript do projeto.
-```
 
 ## Útil ##
  - Desenvolvemos pensando em deixar o mais limpo para o início de um projeto web, no css adicionamos apenas a **grid do bootstrap 4**, assim você ficará mais livre para poder usar outros frameworks ou nenhum em seu projeto.
