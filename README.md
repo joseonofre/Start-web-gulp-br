@@ -1,11 +1,32 @@
-# Gulp para iniciar um projeto.
+# Only-webKit start.
 
-[![N|Solid](http://onlytech.me/images/logo_image.bc413ab9.png)](https://nodesource.com/products/nsolid)
-
-Hey! I'm your first Markdown document in **StackEdit**[^stackedit]. Don't delete me, I'm very helpful! I can be recovered anyway in the **Utils** tab of the <i class="icon-cog"></i> **Settings** dialog.
 
 ----------
 
+<center>
+[![N|Solid](http://onlytech.me/images/logo_only.a86bcbf1.png)](http://onlytech.me/)
+
+
+
+**Only-webkit** é um start para o desenvolvimento do seu projeto web. Montando um padrão através do *gulp*,  super simples e fácil de usar.
+
+
+----------
+## O que tem de mais? ##
+**Only-webkit** Ajuda na performance do seu trabalho, comprimindo todo o css, imagens, javascript sem te dar trabalho. Além de trazer uma boa estrutura de pasta para ser usada em qualquer projeto.
+
+## Suporte do navegador ##
+Esse é um gosto de cada um por isso decidimos deixar por default assim:
+
+ - Safari 5
+ - Internet explore 9+
+ - Firefox 42
+ - ios 6
+ - Android 4
+
+> Você pode mudar alterando no arquivo **Gulpfile.js**.
+> .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 9', 'ios 6', 'android 4'));
+> Saiba mais sobre o [autoprefixer gulp](https://github.com/postcss/autoprefixer#options)
 
 A instalação é fácil:
 -------------
@@ -15,6 +36,14 @@ A instalação é fácil:
 2 - Rode npm install para instalar as dependências.
 3 - Rode gulp para monitorar css/imagens/javascript do projeto.
 ```
+
+## Útil ##
+
+
+----------
+Desenvolvemos pensando em deixar o mais limpo para o início de um projeto web, no css adicionamos apenas a **grid do bootstrap 4**, assim você ficará mais livre para poder usar outros frameworks ou nenhum em seu projeto.
+
+> Caso não use nem a grid do bootstrap 4, não esqueça de remover o @import "grid-bootstrap" no **style.scss** para não poluir seu projeto.
 
 Entenda alguns das dependências usadas para esse start:
 -------------
@@ -26,3 +55,6 @@ Entenda alguns das dependências usadas para esse start:
  - [Gulp SourceMaps](https://www.npmjs.com/package/gulp-sourcemaps) :Adiciona os arquivos de source maps para facilitar o debug do SASS
  - [plumber](https://www.npmjs.com/package/gulp-plumber) :Usando faz com que você possa debugar melhor, mostrando o error no terminal.
  -  [Uglify](https://www.npmjs.com/package/gulp-uglify) comprimi seu javascript (obs: caso haja algum error na hora de comprimir o plumber mostrara no terminal onde está o error.)
+## Contribuindo ##
+
+Projeto desenvolvido pela [Onlytech](onlytech.me) com os seguintes colaboradores: Raul Melo, José Neto, Walaks, Birinight.
