@@ -29,7 +29,7 @@ A instalação é fácil:
 Esse é um gosto de cada um por isso decidimos deixar por default assim:
 
  - Safari 5
- - Internet explore 9+
+ - Internet explore 10+
  - Firefox 42
  - ios 6
  - Android 4
