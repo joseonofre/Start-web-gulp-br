@@ -1,9 +1,10 @@
 # Only-webKit start.
 
 
-[<p align="center">
+<p align="center">
   <img src="http://onlytech.me/images/logo_only.a86bcbf1.png">
-</p>](http://onlytech.me/)
+</p>
+
 
 
 
@@ -38,15 +39,18 @@ A instalação é fácil:
 ```
 
 ## Útil ##
-Desenvolvemos pensando em deixar o mais limpo para o início de um projeto web, no css adicionamos apenas a **grid do bootstrap 4**, assim você ficará mais livre para poder usar outros frameworks ou nenhum em seu projeto.
+ - Desenvolvemos pensando em deixar o mais limpo para o início de um projeto web, no css adicionamos apenas a **grid do bootstrap 4**, assim você ficará mais livre para poder usar outros frameworks ou nenhum em seu projeto.
 
-> Caso não use nem a grid do bootstrap 4, não esqueça de remover o @import "grid-bootstrap" no **style.scss** para não poluir seu projeto.
+> Caso não use nem a grid do bootstrap 4, não esqueça de remover o @import "grid-bootstrap" no **main.scss** para não poluir seu projeto.
+
+- Se for usar o Jquery já existe um CDN do jquery no rodapé do html.
+
 
 Entenda alguns das dependências usadas para esse start:
 -------------
 
  - [Gulp Auto Prefixer](https://www.npmjs.com/package/gulp-autoprefixer) :insere os prefixos dos browsers no seu CSS automaticamente
- - [Gulp Concat](https://www.npmjs.com/package/gulp-concat) :Concatena o JS e o CSS em um arquivo.
+ - [Gulp Concat](https://www.npmjs.com/package/gulp-concat) :Junta todos script em um só arquivo e todas as folhas de estilo em um só arquivo.
  - [Gulp ImageMin](https://www.npmjs.com/package/gulp-imagemin) :Minifica as imagens.
  - [gulp-clean-css](https://www.npmjs.com/package/gulp-clean-css)  :comprime o  CSS
  - [Gulp SourceMaps](https://www.npmjs.com/package/gulp-sourcemaps) :Adiciona os arquivos de source maps para facilitar o debug do SASS

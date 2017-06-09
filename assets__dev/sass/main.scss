@@ -1,0 +1,22 @@
+//// mixin e var
+@import "_mixin/_mixin";
+
+
+/// Reset style global browser
+@import "_base/_reset";
+
+// base project:
+@import "_base/_type";
+@import "_base/_button";
+@import "_base/_form";
+@import "_base/_helpers";
+
+
+// themes:
+@import "_mixin/colors";
+@import "_components/header";
+@import "_components/footer";
+
+
+// Opcional: Grid css
+@import "../../node_modules/bootstrap/scss/bootstrap-grid";

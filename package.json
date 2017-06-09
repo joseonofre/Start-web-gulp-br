@@ -18,6 +18,7 @@
   "license": "ISC",
   "homepage": "https://bitbucket.org/onlytech/only-start-bootstrap#readme",
   "devDependencies": {
+    "bootstrap": "^4.0.0-alpha.6",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-clean-css": "^3.4.1",
